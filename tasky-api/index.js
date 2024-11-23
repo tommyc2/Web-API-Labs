@@ -1,6 +1,7 @@
 import dotenv from 'dotenv';
 import express from 'express';
 import tasksRouter from "./api/tasks" // tasksRouter is an alias for 'router' export
+import './db';
 
 dotenv.config();
 
