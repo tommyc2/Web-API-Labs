@@ -128,3 +128,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# api key for labs to not expose the api key
+reactApp/src/api/api-key.js
